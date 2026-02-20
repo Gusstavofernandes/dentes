@@ -4,7 +4,7 @@
 --cor3:#FCD8DE;
 --cor4:#FEE8EB;
 --cor5:#FEF2F4;
---cor6:#ffdd64;
+--cor6:#ffd644;
 }
 *{
     margin: 0px;
@@ -40,7 +40,7 @@ position: fixed
 }
 
 ul{
-    margin-top: px;
+    
     padding-left: 3em;
     display: flex;
     list-style: none;
@@ -56,26 +56,39 @@ a.menu{
     text-decoration:none;
     color: white;
 }
-a.ultimo.menu{
-  border-right: white 1px solid;
+a.ultimo{
+    border-right: white 1px solid;
+    border-left: white 1px solid;
+    padding: 10px;
+    margin-right: 0px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    text-decoration:none;
+    color: white;
 }
 a:hover{
   color:var(--cor6);
 }
 .logo{
   padding: 0%;
-  margin-top: 2%;
-  width: 100px;
-  height: 100px;
+  margin-top: 40%;
+  width: 80px;
+  height: 80px;
+}
+nav.white{
+  display: flex;
 }
 a.e{
-    padding-left: 3em;
-    padding-right: 3em ;
-    margin-bottom: 3em;
-    margin-right: 0px;
-    border-bottom: var(--cor1) 1px solid;
+    padding-top: 3%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 2%;
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     text-decoration:none;
-    color: var(--cor1)
+    color: var(--cor1);
+    justify-content: center;
+}
+a.e:hover{
+  border-bottom: var(--cor1) 1px solid;
 }
